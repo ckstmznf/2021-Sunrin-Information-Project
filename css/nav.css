@@ -1,0 +1,43 @@
+nav {
+    display: grid;
+    background-color: #ffcf2f;
+
+    padding: 12px 8px;   
+}
+
+nav ul{
+    font-size: 1.25em;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    cursor: pointer;
+
+    transition : color 250ms;
+    transition : text-shadow 250ms;
+}
+
+nav ul li:hover{
+    color : white;
+
+    text-shadow: 0px 8px 30px black;
+}
+
+nav ul li i{
+    font-size: 32px;
+}
+
+@media (max-width : 600px) {
+    nav > ul {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    nav > ul li:hover {
+        background-color: var(--button-main-color);
+    }
+}

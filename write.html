@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sharing idea - 글쓰기</title>
+
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/write.css">
+    <link rel="stylesheet" href="./css/nav.css">
+
+    <script src="https://kit.fontawesome.com/8ef3a014d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li onclick="location.href = '/'"><i class="fas fa-home"></i></li>
+            <li onclick="location.href = './write.html'">프로젝트 공유</li>
+            <li onclick="location.href = './write.html'">베스트 게시물</li>
+        </ul>
+    </nav>
+    <form action="/" method="get">
+        <input type="text" name="title" id="input-title" placeholder="제목을 입력하세요.">
+        <textarea name="content" id="input-content" cols="30" rows="10" placeholder="자신의 아이디어를 작성하세요."></textarea>
+
+        <button type="submit">공유하기</button>
+    </form>
+</body>
+</html>

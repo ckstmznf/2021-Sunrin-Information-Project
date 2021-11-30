@@ -1,10 +1,93 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Sharing idea</title>
+
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Sharing idea</h1>
+        <h2>나만의 아이디어를 공유하세요</h3>
+        
+        <button class="goto-write" onclick="location.href = './write.html'">
+            지금 공유하기
+        </button>
+    </header>
+    <nav>
+        <ul>
+            <!-- <li onclick="location.href = './write.html'">로그인 / 회원가입</li> -->
+            <li onclick="location.href = './write.html'">아이디어 공유</li>
+            <li onclick="location.href = './write.html'">프로젝트 공유</li>
+            <li onclick="location.href = './write.html'">베스트 게시물</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="board-list-wrap">
+            <ul class="idea-board-list board-list">
+                <h3>전체 게시물</h3>
+                <li>1번째 게시물</li>
+                <li>2번째 게시물</li>
+                <li>3번째 게시물</li>
+                <li>4번째 게시물</li>
+                <li>5번째 게시물</li>
+            </ul>
+
+            <ul class="best-board-list board-list">
+                <h3>베스트 게시물 게시물</h3>
+                <li>1번째 게시물</li>
+                <li>2번째 게시물</li>
+                <li>3번째 게시물</li>
+                <li>4번째 게시물</li>
+                <li>5번째 게시물</li>
+            </ul>
+
+            <ul class="idea-board-list board-list">
+                <h3>아이디어 공유 게시물 게시물</h3>
+                <li>1번째 게시물</li>
+                <li>2번째 게시물</li>
+                <li>3번째 게시물</li>
+                <li>4번째 게시물</li>
+                <li>5번째 게시물</li>
+            </ul>
+            
+            <ul class="project-board-list board-list">
+                <h3>프로젝트 게시물 게시물</h3>
+                <li>1번째 게시물</li>
+                <li>2번째 게시물</li>
+                <li>3번째 게시물</li>
+                <li>4번째 게시물</li>
+                <li>5번째 게시물</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <ul class="sponsor">
+            <h3>스폰서</h3>
+            <li onclick="location.href = 'http:\/\/edcan.kr'"><img src="./img/EDCAN_LOGO.2b1b47ce.svg" alt="EDCAN 로고" width="150px"></li>
+            <li onclick="location.href = 'http:\/\/edcan.kr'"><img src="./img/Atelier.f78c6424.svg" alt="EDCAN 로고" width="150px"></li>
+            <!-- <li><img src="./img/sunrin.png" alt="선린 로고" width="50px"></li> -->
+        </ul>
+
+        <ul class="maker">
+            <h3>제작</h3>
+            <li>Front-End : 박희찬</li>
+            <li>Back-End : 박희찬</li>
+            <li>Design : 박희찬</li>
+            <li>Server : 박희찬</li>
+        </ul>
+
+        <ul class="skill">
+            <h3>사용 기술</h3>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </footer>
 </body>
 </html>
