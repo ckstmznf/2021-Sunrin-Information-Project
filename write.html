@@ -18,9 +18,9 @@
             <li onclick="location.href = './write.html'">베스트 게시물</li>
         </ul>
     </nav>
-    <form action="./board.html?id=-1" method="get">
-        <input type="text" name="title" id="input-title" placeholder="제목을 입력하세요.">
-        <textarea name="content" id="input-content" cols="30" rows="10" placeholder="자신의 아이디어를 작성하세요."></textarea>
+    <form action="./board.html" method="get">
+        <input type="text" name="title" id="input-title" placeholder="제목을 입력하세요." required>
+        <textarea name="content" id="input-content" cols="30" rows="10" placeholder="자신의 아이디어를 작성하세요." required></textarea>
 
         <button type="submit">공유하기</button>
     </form>

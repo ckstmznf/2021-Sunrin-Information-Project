@@ -2,7 +2,7 @@ nav {
     display: grid;
     background-color: #ffcf2f;
 
-    padding: 12px 8px;   
+    padding: 12px 8px;
 }
 
 nav ul{
@@ -31,6 +31,10 @@ nav ul li i{
 }
 
 @media (max-width : 600px) {
+    nav {
+        padding : 0;
+    }
+    
     nav > ul {
         flex-direction: column;
         align-items: stretch;
