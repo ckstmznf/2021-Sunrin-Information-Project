@@ -33,11 +33,11 @@ nav ul li i{
 @media (max-width : 600px) {
     nav > ul {
         flex-direction: column;
-
-        text-align: center;
+        align-items: stretch;
+        text-align: center
     }
 
     nav > ul li:hover {
-        background-color: var(--button-main-color);
+        background-color: #354EF0;
     }
 }

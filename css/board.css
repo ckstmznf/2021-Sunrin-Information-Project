@@ -54,3 +54,9 @@ main * {
     border: 0px;
     border-radius: 12px;
 }
+
+@media (min-width = 600px) {
+    body {
+        grid-template-rows: auto auto 20vh;
+    }
+}

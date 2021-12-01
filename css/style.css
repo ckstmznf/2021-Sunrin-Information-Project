@@ -100,16 +100,6 @@ main {
 }
 
 @media (max-width : 600px) {
-    nav > ul {
-        flex-direction: column;
-
-        text-align: center;
-    }
-
-    nav > ul li:hover {
-        background-color: var(--button-main-color);
-    }
-
     .board-list-wrap{
         grid-template-columns: 1fr;
     }
