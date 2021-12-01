@@ -1,0 +1,56 @@
+* {
+    margin : 0; padding : 0;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+
+    display: grid;
+    grid-template-rows: 10vh auto 20vh;
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+main * {
+    padding : 16px 12px;
+}
+
+.boardHeader {
+}
+
+.title {
+    font-size: 20px;
+}
+
+.writer, .viewCount {
+    font-size: 16px;
+    
+    color : rgb(53, 53, 53);
+}
+
+.content {
+    font-size: 16px;
+
+    border-top : 1px solid black;
+    border-bottom : 1px solid black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    padding : 12px 40px;
+
+    font-size: 20px;
+
+    color : white;
+    background-color: #354EF0;
+    border: 0px;
+    border-radius: 12px;
+}

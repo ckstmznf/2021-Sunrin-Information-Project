@@ -94,22 +94,6 @@ main {
     border-bottom: 3px solid var(--main-color);
 }
 
-footer {
-    border-top: 1px solid black;
-    
-    display: flex;
-    justify-content: space-around;
-}
-
-
-footer > ul{
-    text-align: center;
-
-    display: inline-flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    justify-self: center;
-}
 
 .sponsor li {
     cursor: pointer;
